@@ -11,17 +11,17 @@
             <li class="sidebar-main-title">
             </li>
             <li class="sidebar-list">
-              <label class="badge badge-success"></label><a class="sidebar-link sidebar-title" href="#"><i data-feather="shopping-bag"></i><span>Categories</span></a>
+              <label class="badge badge-success"></label><a class="sidebar-link sidebar-title" href="#"><i data-feather="shopping-bag"></i><span>Thể Loại</span></a>
               <ul class="sidebar-submenu">
-                <li><a href="">Create Category</a></li>
-                <li><a href="">List Categories</a></li>
+                <li><a href="">Thêm Mới</a></li>
+                <li><a href="">Danh Sách</a></li>
               </ul>
             </li>
             <li class="sidebar-list">
-              <label class="badge badge-danger"></label><a class="sidebar-link sidebar-title" href="#"><i data-feather="box"></i><span>Product</span></a>
+              <label class="badge badge-danger"></label><a class="sidebar-link sidebar-title" href="#"><i data-feather="box"></i><span>Sản Phẩm</span></a>
               <ul class="sidebar-submenu">
-                <li><a href="">Create Product</a></li>
-                <li><a href="">List Product</a></li>
+                <li><a href="">Thêm Mới</a></li>
+                <li><a href="">Danh Sách</a></li>
               </ul>
             </li>
             <li class="sidebar-list">

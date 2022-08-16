@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/123', function () {
-    return view("admin.share.master");
-});
+// Route::get('/1112', function () {
+//     return view('admin.page.theloai.themmoi');
+// });
+
+Route::get('/admin/theloai', [\App\Http\Controllers\TheloaiController::class, 'createtheloai'])->name('theloai.Create');
+Route::post('/admin/theloai', [\App\Http\Controllers\TheloaiController::class, 'posttheloai'])->name('theloai.post');

@@ -21,9 +21,9 @@
 <!-- Theme js-->
 <script src="/admin/assets/js/script.js"></script>
     <script>
-		@if(count($errors) > 0)
-			@foreach($errors->all() as $error)
-				toastr.error("{{$error}}");
-			@endforeach
-		@endif
-	</script>
+            @if(count($errors) > 0)
+                @foreach($errors->all() as $error)
+                    toastr.error("{{$error}}");
+                @endforeach
+            @endif
+    </script>

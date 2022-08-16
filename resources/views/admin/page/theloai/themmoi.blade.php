@@ -3,7 +3,7 @@
 <div class="page-title">
     <div class="row">
       <div class="col-6">
-        <h3>Create Category</h3>
+        <h3>Thêm Mới Thể Loại</h3>
       </div>
       <div class="col-6">
       </div>
@@ -12,7 +12,7 @@
 @endsection
 @section('content')
 <div class="container-fluid">
-    {{-- <form method="post" action="{{Route('Category.post')}}"> --}}
+    <form method="post" action="{{Route('theloai.post')}}">
         @csrf
     <div class="row">
       <div class="col-sm-12">
@@ -22,14 +22,14 @@
               <div class="row">
                 <div class="col-6">
                   <div class="mb-3">
-                    <label>Name Category</label>
-                    <input class="form-control" name="name_category" type="text" data-bs-original-title="" title="">
+                    <label>Tên Thể Loại</label>
+                    <input class="form-control" name="tentheloai" type="text" data-bs-original-title="" title="" required>
                   </div>
                 </div>
                 <div class="col-6">
-                    <label>Image Category</label>
+                    <label>Hình ảnh thể loại</label>
                     <div class="input-group">
-                        <input id="image" name="image_category" class="form-control">
+                        <input id="image" name="hinhanh" class="form-control">
                         <a data-input="image" data-preview="holder-icon" class="lfm btn btn-light">
                             Choose
                         </a>
@@ -45,7 +45,7 @@
             </div>
             <div class="row text-center">
                 <div class="card-body">
-                  <button class="btn btn-success" type="submit" data-bs-original-title="" title="">Create Category</button>
+                  <button class="btn btn-success" type="submit" data-bs-original-title="" title="">Tạo Mới Thể Loại</button>
                 </div>
               </div>
             </div>

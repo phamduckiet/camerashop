@@ -53,5 +53,6 @@
 @include('admin.share.foot-css')
     <!-- login js-->
     <!-- Plugin used-->
+    @yield('js')
   </body>
 </html>
